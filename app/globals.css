@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .info-container {
+    @apply flex flex-col lg:flex-row items-center justify-between mx-auto max-w-7xl px-6 w-full;
+  }
+}
+
+@layer utilities {
+  .team-image-bg {
+    background: linear-gradient(
+      180deg,
+      rgba(210, 218, 217, 0) 40%,
+      #bbcac8 100%
+    );
+  }
+  .video-bg {
+    background: linear-gradient(
+      180deg,
+      rgba(22, 27, 27, 0.4) 0%,
+      #161b1b 137.56%
+    );
+  }
+  .team-image {
+    width: 100%;
+    margin-bottom: 0.05rem;
+    aspect-ratio: 4/5;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    height: 400px;
+  }
+}
+
+.slick-slider {
+  width: 100%;
+  margin: auto;
+}
+
+.header_parent_div {
+  position: relative;
+}
+
+.article-content-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 400;
+}
+
+.article-citation-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 700;
+}
+
+.text-shadow-black {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.text-shadow-sm {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.empty-block + .empty-block {
+  margin-top: 1.5rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.article-content-font > p:first-of-type::first-letter {
+  float: left;
+  color: black;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 0.7;
+  margin-right: 0.15em;
+  margin-top: 0.1em;
+  padding-bottom: 0.05em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+@supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
+  .article-content-font > p:first-of-type::first-letter {
+    float: none;
+    margin: 0;
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+    padding-right: 0.1em;
+  }
+}
+
+.article-content-font > p:first-of-type::first-letter {
+  border-radius: 0.1em;
+  padding: 0.05em 0.1em;
+}
+
+.article-content-font > p:first-of-type::first-line {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
