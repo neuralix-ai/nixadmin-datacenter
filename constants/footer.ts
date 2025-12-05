@@ -38,7 +38,7 @@ export const FOOTER_DATA = {
     {
       country: 'India',
       address:
-        '428, Railway Line Road NGEF Layout, Sadananda Nagar, Bangalore, Karnataka - 560038',
+        '212, 579, 32nd D Cross, 10th Main Road, 4th Block, Jayanagar, Bengaluru, Karnataka - 560011',
     },
     {
       country: 'United States',
