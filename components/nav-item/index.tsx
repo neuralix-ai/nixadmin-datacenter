@@ -104,7 +104,7 @@ const NavElement = ({
       className={`flex flex-col ${fromHeader ? 'items-center' : 'items-start'}`}
       onClick={onClick}
     >
-      <p className='cursor-pointer'>{label}</p>
+      <p className={`cursor-pointer font-medium ${active ? 'text-teal-600' : 'text-slate-900'} hover:text-teal-600 transition-colors`}>{label}</p>
       {fromHeader &&
         (active && label != 'Contact Us' ? (
           <div className='w-[6px] h-[6px] rounded-full ml-2 mb-1 bg-primary ' />
