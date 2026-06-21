@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = () => {
       <hr className="mt-10 w-full border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] max-md:max-w-full" />
       <div className="flex flex-wrap gap-10 items-center mt-10 w-full max-md:max-w-full">
         <p className="flex-1 shrink self-stretch my-auto text-base tracking-wide leading-loose text-gray-400 basis-0 max-md:max-w-full">
-          © Neuralix Datacenter Pvt Ltd 2024. All right reserved.
+          © Neuralix Datacenter Pvt Ltd 2026. All right reserved.
         </p>
         <SocialMedia />
       </div>

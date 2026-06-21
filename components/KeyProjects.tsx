@@ -4,6 +4,16 @@ export default function KeyProjects() {
   const projects = [
     {
       id: 1,
+      category: 'Predictive Analytics',
+      title: 'EME Portal - AI-Powered Defense Readiness Intelligence Platform',
+      description: '"Predict. Prepare. Prevail."',
+      features: [
+        'AI-Powered Intelligence for Mission Readiness, Maintenance Excellence, and Force Optimization.',
+      ],
+      image: '/eme.png',
+    },
+    {
+      id: 2,
       category: 'Enterprise AI',
       title: 'EKAM AI - AIaaS Platform for the Indian Army',
       description:
@@ -15,7 +25,7 @@ export default function KeyProjects() {
       image: '/ekam.png',
     },
     {
-      id: 2,
+      id: 3,
       category: 'Border Security',
       title: 'Surya Drishti AI – Border Management Engine',
       description:
@@ -25,18 +35,6 @@ export default function KeyProjects() {
         'High-altitude operational capability',
       ],
       image: '/suryadrihti.png',
-    },
-    {
-      id: 3,
-      category: 'Predictive Analytics',
-      title: 'EME Portal - AI‑based Equipment Analytics',
-      description:
-        'Pilot completed for predictive maintenance insights on armoured vehicle fleets',
-      features: [
-        'Predictive maintenance algorithms',
-        'Fleet optimization insights',
-      ],
-      image: '/eme.png',
     },
   ]
 

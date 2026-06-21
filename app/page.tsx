@@ -3,6 +3,7 @@ import QualityControlSlider from '@/components/QualityControlSlider'
 import { BannerSection, ContactUsSection } from '@/components/sections'
 import { useEffect } from 'react'
 import { scroller } from 'react-scroll'
+import EmePortalSection from '../components/EmePortalSection'
 import IndustryFocusSection from '../components/IndustryFocusSection'
 import KeyProjects from '../components/KeyProjects'
 import TeamsCarousel from '../components/TeamsCarousel'
@@ -33,6 +34,9 @@ export default function Home() {
       </section>
       <section id='#projects' className='w-full'>
         <KeyProjects />
+      </section>
+      <section id='#eme' className='w-full'>
+        <EmePortalSection />
       </section>
       <section id='#focus' className='w-full'>
         <IndustryFocusSection />

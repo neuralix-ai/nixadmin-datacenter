@@ -38,12 +38,11 @@ export const FOOTER_DATA = {
     {
       country: 'India',
       address:
-        '212, 579, 32nd D Cross, 10th Main Road, 4th Block, Jayanagar, Bengaluru, Karnataka - 560011',
+        'No.428, 1st Floor, Railway Line Road, NGEF Layout, Benniganahalli, Sadananda Nagar, Indiranagar, Bangalore',
     },
     {
       country: 'United States',
-      address: `Neuralix Inc. 
-                4200 San Jacinto St. 
+      address: `4200 San Jacinto St.
                 Houston, TX 77004`,
     },
   ],
